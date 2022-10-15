@@ -1,5 +1,7 @@
 #include <Servo.h>
 
+//just a scratch
+
 Servo myservo;  // create servo object to control a servo
 
 int posClose = 20;    // variable to store the servo position
@@ -29,6 +31,5 @@ int close (int posClose, int posOpen) {
 
 void loop() {
   
-
  myservo.detach();
 }
